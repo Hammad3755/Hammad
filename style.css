@@ -1,0 +1,29 @@
+*{
+    font-size: medium;
+}
+h1{
+    font-size: xxx-large;
+}
+h2{
+    font-size: xx-large;
+}
+a{
+    font-size: x-large;
+}
+header {
+            font-family: futura;
+            text-align: center;
+            background-color: rgb(101, 246, 195)}
+            h1 {
+                background-color: blue;
+            }
+body {
+    font-size: large;
+    font-family: futura;
+text-align: center;
+background-color: rgb(101, 246, 195)
+}
+
+footer{
+    font-size: larger;
+}
