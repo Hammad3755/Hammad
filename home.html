@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirhas Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 2em 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #555;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        section {
+            padding: 3em 1em;
+            text-align: center;
+        }
+        .products, .collections {
+            background: #f9f9f9;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5em;
+            margin-top: 2em;
+            padding: 0 1em;
+        }
+        .grid-item {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .grid-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .grid-item h3 {
+            padding: 1em;
+            font-size: 1.2em;
+        }
+        .grid-item button {
+            background: #2575fc;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            margin-bottom: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .grid-item button:hover {
+            background: #6a11cb;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Mirhas Collection</h1>
+    <p>Your style, your choice, your collection.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#collection">Collection</a></li>
+    </ul>
+</nav>
+
+<div class="hero" id="home">
+        <img src="https://img.freepik.com/free-vector/flat-winter-sale-horizontal-banner-template_23-2149868812.jpg" alt="hero" width="900" height="300">
+</div>
+
+<section class="products">
+    <h2>Featured Products</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="https://ellena.pk/cdn/shop/files/BF5A2258.jpg?v=1709816938" alt="Product 1">
+            <h3>Elegant Dress</h3>
+            <button>Buy Now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://i.pinimg.com/736x/6f/b1/d0/6fb1d0e2da10b5be9885f25a770ed283.jpg" alt="Product 2">
+            <h3>Casual Shirt</h3>
+            <button>Buy Now</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs_5o0PcXmTq2Xl8Mp_2s92edKdHCP1QMpPg&s" alt="Product 3">
+            <h3>Stylish Jacket</h3>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</section>
+
+<section class="collections" id="collection">
+    <h2>Our Collections</h2>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="https://www.shutterstock.com/image-vector/summer-collection-gold-paint-black-260nw-400158577.jpg" alt="Summer Collection">
+            <h3>Summer Collection</h3>
+            <button>View More</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://www.shutterstock.com/image-vector/winter-collection-golden-brush-stroke-260nw-483427876.jpg" alt="Winter Collection">
+            <h3>Winter Collection</h3>
+            <button>View More</button>
+        </div>
+        <div class="grid-item">
+            <img src="https://s3.amazonaws.com/images.powershow.com/6685719.pr.jpg" alt="Party Wear">
+            <h3>Party Wear</h3>
+            <button>View More</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mirhas Collection. All rights reserved. | Designed with love</p>
+</footer>
+
+</body>
+</html>
+

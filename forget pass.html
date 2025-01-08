@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password - Mirhas Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .forgot-password-container {
+            background: #fff;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .forgot-password-container h1 {
+            margin-bottom: 1.5em;
+            font-size: 1.8em;
+            color: #2575fc;
+        }
+        .forgot-password-container label {
+            display: block;
+            margin-bottom: 0.5em;
+            text-align: left;
+        }
+        .forgot-password-container input {
+            width: 100%;
+            padding: 0.8em;
+            margin-bottom: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .forgot-password-container button {
+            background: #2575fc;
+            color: white;
+            border: none;
+            padding: 0.8em 1.5em;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+        .forgot-password-container button:hover {
+            background: #6a11cb;
+        }
+        .forgot-password-container p {
+            margin-top: 1em;
+            font-size: 0.9em;
+        }
+        .forgot-password-container a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        .forgot-password-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="forgot-password-container">
+        <h1>Forgot Your Password?</h1>
+        <p>No worries! Enter your email below and we will send you a link to reset your password.</p>
+        <form action="#" method="POST">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <button type="submit">Send Reset Link</button>
+        </form>
+        <p><a href="login.html">Back to Login</a></p>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Collection - Mirhas Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 2em 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 1em 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #555;
+        }
+        .collection-header {
+            background: url('https://via.placeholder.com/1500x400') no-repeat center center/cover;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .collection-header h1 {
+            font-size: 2.5em;
+        }
+        section {
+            padding: 3em 1em;
+            text-align: center;
+        }
+        .collection-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5em;
+            padding: 0 1em;
+        }
+        .collection-item {
+            background: #f9f9f9;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+            padding: 1em;
+        }
+        .collection-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+        .collection-item h3 {
+            margin: 1em 0;
+            color: #2575fc;
+        }
+        .collection-item button {
+            background: #2575fc;
+            color: white;
+            border: none;
+            padding: 0.7em 1.5em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .collection-item button:hover {
+            background: #6a11cb;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Collection - Mirhas Collection</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="collection.html">Collection</a></li>
+    </ul>
+</nav>
+
+<div class="collection-header">
+    <h1>Explore Our Exclusive Collections</h1>
+</div>
+
+<section>
+    <h2>Featured Collections</h2>
+    <div class="collection-grid">
+        <div class="collection-item">
+            <img src="https://via.placeholder.com/300x200" alt="Summer Collection">
+            <h3>Summer Collection</h3>
+            <p>Bright, breezy, and perfect for sunny days.</p>
+            <button>View Collection</button>
+        </div>
+        <div class="collection-item">
+            <img src="https://via.placeholder.com/300x200" alt="Winter Collection">
+            <h3>Winter Collection</h3>
+            <p>Warm, cozy, and stylish for the cold season.</p>
+            <button>View Collection</button>
+        </div>
+        <div class="collection-item">
+            <img src="https://via.placeholder.com/300x200" alt="Casual Wear">
+            <h3>Casual Wear</h3>
+            <p>Everyday essentials that blend comfort with fashion.</p>
+            <button>View Collection</button>
+        </div>
+        <div class="collection-item">
+            <img src="https://via.placeholder.com/300x200" alt="Evening Wear">
+            <h3>Evening Wear</h3>
+            <p>Elegant and sophisticated attire for special nights.</p>
+            <button>View Collection</button>
+        </div>
+        <div class="collection-item">
+            <img src="https://via.placeholder.com/300x200" alt="Accessories">
+            <h3>Accessories</h3>
+            <p>Complete your look with our stunning accessories.</p>
+            <button>View Collection</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Mirhas Collection. All rights reserved. | Designed with care</p>
+</footer>
+
+</body>
+</html>
