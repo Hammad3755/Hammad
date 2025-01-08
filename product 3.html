@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Mirhas Collection</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .product-container {
+            background: #fff;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 800px;
+        }
+        .product-header {
+            text-align: center;
+            margin-bottom: 1.5em;
+        }
+        .product-header h1 {
+            font-size: 2em;
+            color: #2575fc;
+        }
+        .product-header p {
+            font-size: 1em;
+            color: #666;
+        }
+        .product-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5em;
+            align-items: center;
+        }
+        .product-image {
+            flex: 1;
+            min-width: 250px;
+            text-align: center;
+        }
+        .product-image img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .product-info {
+            flex: 2;
+            min-width: 250px;
+        }
+        .product-info h2 {
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        .product-info p {
+            margin-bottom: 1em;
+            line-height: 1.5;
+            color: #555;
+        }
+        .product-info .price {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 1em;
+        }
+        .product-info button {
+            background: #2575fc;
+            color: white;
+            border: none;
+            padding: 0.8em 1.5em;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background 0.3s;
+        }
+        .product-info button:hover {
+            background: #6a11cb;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <div class="product-header">
+            <h1>Stylish Jacket</h1>
+            <p>Discover the elegance and quality of Mirhas Collection.</p>
+        </div>
+        <div class="product-details">
+            <div class="product-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs_5o0PcXmTq2Xl8Mp_2s92edKdHCP1QMpPg&s" alt="Product Image">
+            </div>
+            <div class="product-info">
+                <h2>Danish Taimor Jacket</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam varius, justo at luctus vehicula, lorem justo tincidunt nisl, non efficitur magna libero a augue. Sed a neque vel arcu sollicitudin malesuada.</p>
+                <p class="price">$99.99</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
