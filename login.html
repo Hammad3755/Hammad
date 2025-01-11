@@ -56,18 +56,21 @@
             transition: background 0.3s;
         }
         .login-container button:hover {
-            background: #6a11cb;
+            background: #2575fc;
         }
         .login-container p {
             margin-top: 1em;
             font-size: 0.9em;
         }
         .login-container a {
-            color: #2575fc;
+            color:#2575fc;
             text-decoration: none;
         }
         .login-container a:hover {
             text-decoration: underline;
+        }
+        #login a {
+            color: white;
         }
     </style>
 </head>
@@ -81,10 +84,10 @@
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-            <button type="submit">Login</button>
+            <button type="submit" id="login"><a href="home.html" type="text/html" style="spreadsheet">Login</button></a>
         </form>
-        <p>Don't have an account? <a href="#">Sign up</a></p>
-        <p><a href="#">Forgot your password?</a></p>
+        <p>Don't have an account? <a href="sign up.html" type="text/html" style="spreadsheet">Sign up</a></p>
+        <p><a href="forget pass.html" type="text/html" style="spreadsheet">Forgot your password?</a></p>
     </div>
 </body>
 </html>
